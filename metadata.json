@@ -1,0 +1,6 @@
+{
+  "name": "ALTURA 72 | Proyecto Residencial en Cartagena",
+  "description": "ALTURA 72 combina arquitectura contemporánea, espacios pensados para vivir y una ubicación estratégica en Cartagena de Indias. Proyecto residencial de portafolio para YorDev.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

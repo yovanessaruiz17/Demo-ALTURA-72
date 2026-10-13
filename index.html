@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALTURA 72 (Demo) | Torre Residencial en Cartagena de Indias</title>
+    <meta
+      name="description"
+      content="Sitio web conceptual y demostrativo de ALTURA 72, torre residencial en Cartagena de Indias. Proyecto de portafolio y ejemplo interactivo con datos ficticios."
+    />
+    <link rel="canonical" href="https://altura72.yordev.com/" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#0B1320" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ALTURA 72" />
+    <meta property="og:title" content="ALTURA 72 | Torre Residencial en Cartagena de Indias" />
+    <meta
+      property="og:description"
+      content="Apartamentos contemporáneos en Cartagena de Indias con vista al mar y a la bahía. Arquitectura bioclimática, acabados premium y amenidades de clase mundial."
+    />
+    <meta property="og:url" content="https://altura72.yordev.com/" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ALTURA 72 | Torre Residencial en Cartagena de Indias" />
+    <meta
+      name="twitter:description"
+      content="Apartamentos contemporáneos en Cartagena de Indias con vista al mar y a la bahía. Arquitectura bioclimática, acabados premium y amenidades de clase mundial."
+    />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Geo Search / Local SEO -->
+    <meta name="geo.region" content="CO-BOL" />
+    <meta name="geo.placename" content="Cartagena de Indias" />
+    <meta name="geo.position" content="10.3997;-75.5562" />
+    <meta name="ICBM" content="10.3997, -75.5562" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Structured Data (JSON-LD) for Search Engines and AI Crawlers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ApartmentComplex",
+          "@id": "https://altura72.yordev.com/#complex",
+          "name": "ALTURA 72",
+          "alternateName": "Torre Residencial ALTURA 72",
+          "description": "Edificio residencial contemporáneo en Cartagena de Indias que combina arquitectura bioclimática, ventanería termoacústica y amenidades de vanguardia con vistas a la bahía y el mar Caribe.",
+          "url": "https://altura72.yordev.com/",
+          "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avenida San Martín con Calle 7",
+            "addressLocality": "Cartagena de Indias",
+            "addressRegion": "Bolívar",
+            "postalCode": "130001",
+            "addressCountry": "CO"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.3997,
+            "longitude": -75.5562
+          },
+          "numberOfAccommodationUnits": 24,
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Piscina Infinity en Terraza", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Gimnasio Panorámico Equipado", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Sky Lounge & Zona BBQ", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Espacio Coworking & Sala de Juntas", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Lobby Climatizado con Vigilancia 24/7", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Parqueaderos Privados en Sótano", "value": true }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://altura72.yordev.com/#developer",
+          "name": "YorDev",
+          "url": "https://yordev.com",
+          "description": "Estudio de desarrollo digital y prototipado arquitectónico de alta fidelidad."
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0B1320] text-[#FAF9F6] antialiased selection:bg-[#C5A880]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
